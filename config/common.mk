@@ -47,6 +47,10 @@ PRODUCT_COPY_FILES += \
 #    vendor/nexus/prebuilt/common/etc/permissions/org.pixelexperience.weather.client.xml:system/etc/permissions/org.pixelexperience.weather.client.xml \
 #    vendor/nexus/prebuilt/common/etc/default-permissions/org.pixelexperience.weather.client.xml:system/etc/default-permissions/org.pixelexperience.weather.client.xml
 
+# ThemePicker Permissions
+PRODUCT_COPY_FILES += \
+    vendor/nexus/prebuilt/common/etc/permissions/privapp-permissions-custom.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-custom.xml \
+
 # Packages
 include vendor/nexus/config/packages.mk
 
